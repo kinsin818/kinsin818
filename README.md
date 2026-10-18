@@ -1,31 +1,38 @@
 # Hi there 👋 — I'm Kin (kinsin818)
 
-I build **AI products end to end**: SaaS, desktop orchestration, mobile controllers, and developer tooling. Every repo below is a **real product with real screenshots** — showcase repos carry docs & screenshots (no binaries unless noted), because the point is to show what actually ships, not a demo reel.
+I build AI products end to end — live SaaS, Windows desktop tools, and developer tooling.
+Below is a short, deliberate wall: a few things that actually ship.
+我是 Kin，做 AI 产品的全栈开发者。门面刻意做短——只放真正落地的东西。
 
-我是 Kin，做 AI 产品的全栈开发者：SaaS、桌面编排、移动端控制器、开发者工具。下方仓库全部是**真实产品 + 真实截图**——门面仓只放文档与截图（除非注明，不放二进制），因为要展示的是真正落地的东西，不是演示片。
+## 🚀 Live product / 在线商品
 
-## 🧱 Product Wall / 产品墙
-
-| Repo / 仓库 | What it is / 定位 | Notes / 备注 |
+| Repo | What it is | Notes |
 |---|---|---|
-| [**LabelFlow**](https://github.com/kinsin818/LabelFlow) | Dataset labeling & cleaning workflow tool — versioned release with installable demo APK. 数据集标注与清洗流程工具，带可安装演示包。 | ✅ Release v0.1.7 + APK |
-| [**DateMaster**](https://github.com/kinsin818/DateMaster) | AI-assisted conversation companion for dating — English UI, local API-key setup. AI 约会对话助手，本地 API 配置，英文界面。 | English UI |
-| [**HelloHoney**](https://github.com/kinsin818/HelloHoney) | Cross-language chat assistant: auto-detects the other side's language, translates to yours, drafts replies in your gender-matched grammar. 跨语言聊天辅助：自动识别对方语言、翻译成你的母语、按性别语法生成回复。 | English UI, buy-once product |
-| [**AI-Congress-Online**](https://github.com/kinsin818/AI-Congress-Online) | Live SaaS — document processing & reporting (CSV cleaning, capability reports) with tiered pricing. 在线 AI 文档处理 SaaS（CSV 清洗、能力报告），三档定价，已上线。 | **Live product** · portfolio PDF |
-| [**World-Around / 环视TV**](https://github.com/kinsin818/World-Around) | Self-hosted IPTV player for Windows (WPF + LibVLC) & Android (Media3), with a Go source steward. 自用 IPTV 播放器（Windows + Android 双端，Go 源管家）。 | 中文 UI · real playback screenshots |
-| [**DoCom**](https://github.com/kinsin818/DoCom) | Mobile command center for your local Codex gateway — pair securely, send tasks, steer, interrupt, approve from your phone. 随身 AI 指挥终端：手机配对本地 Codex 网关，下发任务、引导、打断、审批。 | 中文 UI · security-first pairing |
+| [**AI Congress Online**](https://github.com/kinsin818/AI-Congress-Online) | Ask once — several AIs weigh in. Live SaaS: auditable data cleaning + multi-model cross-verification, bring your own key.<br>多模型交叉验证 + 可审计数据清洗，自带 Key、免注册试用。 | ✅ Live · [aicongressonline.com](https://aicongressonline.com) · showcase (no source) |
 
-## 🛠 What I work on / 技术方向
+## 🧪 Open source · capability proof / 开源能力证明
 
-- **AI agent orchestration** — multi-window model coordination, task state machines, approval flows, evidence-led delivery. AI Agent 编排：多窗口模型协调、任务状态机、审批流、证据驱动交付。
-- **Desktop + mobile** — Electron shells, Android (Compose / WebView), WPF, Go tooling. 桌面与移动端：Electron、Android、WPF、Go。
-- **SaaS & monetization** — productized AI workflows with real pricing. 产品化 AI 工作流与定价。
-- **Privacy-first architecture** — local gateways, on-device processing, secure pairing. 隐私优先架构：本地网关、端侧处理、安全配对。
+| Repo | What it is | Notes |
+|---|---|---|
+| [**sendguard**](https://github.com/kinsin818/sendguard) | A file-name pre-flight check ported to six languages, with a gate that decides whether the ports agree.<br>文件名预检：六种语言各自实现，由一个闸门判定它们是否给出一致结论。 | Python / Java / Rust / TS / C# / Go · MIT |
+| [**armory-rightclick**](https://github.com/kinsin818/armory-rightclick) | Right-click AI action engine — a Windows Explorer context menu powered by LLM routing, OCR and a local model.<br>右键 AI 动作引擎：由 LLM 路由、OCR 与本地模型驱动的资源管理器右键菜单。 | Windows · MIT |
+
+## 🧭 Free & open tool / 引流款
+
+| Repo | What it is | Notes |
+|---|---|---|
+| [**LaneFlow-Free**](https://github.com/kinsin818/LaneFlow-Free) | Process-level traffic routing for Windows — bind a selected app to an exit endpoint on top of an existing TUN/VPN or proxy, and leave everything else alone.<br>进程级流量路由：把某个应用绑定到指定出口，其余不动。 | .NET 8 / WPF · MIT |
+
+## 🛠 Focus / 方向
+
+- **AI agent orchestration** — multi-model coordination, task state machines, evidence-led delivery. AI Agent 编排：多模型协调、任务状态机、证据驱动交付。
+- **Windows desktop** — WPF / .NET, process-level network control, shell integration. Windows 桌面：WPF / .NET、进程级网络控制、系统集成。
+- **Privacy-first** — local gateways, bring-your-own-key, on-device processing. 隐私优先：本地网关、自带 Key、端侧处理。
 
 ## ℹ️ Note / 说明
 
-Showcase repos intentionally publish **no application source code and no secrets**; a couple of repos are personal tools (Simplified Chinese UI) — screenshots are honest about that. If you are here from a project pitch, the README of each repo describes exactly what the product does. 门面仓有意**不公开应用源码与密钥**；部分仓库是个人自用工具（简体中文界面），截图如实标注。若你因方案投递而来，每个仓库的 README 都如实描述了产品能力。
+Showcase repos publish **no application source code and no secrets**; open-source repos carry real code and an explicit license.
+门面仓不公开应用源码与密钥；开源仓是真代码，并附带明确的许可证。
 
 ---
-
-*Portfolio wall updated 2026-10-02 · 门面墙更新于 2026-10-02*
+*Portfolio wall updated 2026-10-18 · 门面墙更新于 2026-10-18*
