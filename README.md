@@ -12,9 +12,9 @@ What I take on: adversarial assessments and vulnerability reports, document-to-s
 
 ## Evidence, not adjectives / 先看证据
 
-### ARKX CTF — GRANDMASTER, 6,700 points
+### ARKX CTF — GRANDMASTER, 7,200 points
 
-24 / 24 challenges cleared across three tracks (Beginner 7, Advanced 9, Expert 8). The public portfolio carries a redacted write-up per vulnerability class: LLM prompt injection, path traversal / WAF bypass, YAML deserialization to RCE, TOCTOU race conditions, MCP resource enumeration, and auth-boundary escalation.
+24 / 24 challenges cleared across three tracks (Beginner 7, Advanced 9, Expert 8); the DEFCON track stands at 2 of 3 levels. The public portfolio carries a redacted write-up per vulnerability class: LLM prompt injection, path traversal / WAF bypass, YAML deserialization to RCE, TOCTOU race conditions, MCP resource enumeration, and auth-boundary escalation.
 
 Engagements this maps to: adversarial assessment, red-team testing, and vulnerability reports that state the mechanism, the exploitation path and the fix — defensible line by line.
 
